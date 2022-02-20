@@ -348,7 +348,7 @@
 
   .other {
     width: 22vw;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
   }
 
