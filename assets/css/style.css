@@ -272,6 +272,14 @@
   /* SECTION TITLE STYLES END */
   
   /* About Me STYLES */
+  #about-me {
+    display: inline-flex;
+    /* flex-direction: column;
+    flex-wrap: wrap;*/
+    justify-content:space-between;
+    align-items: center;
+  }
+  
   .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
@@ -280,10 +288,12 @@
     font-size: 20px;
     text-align: center;
   }
-  /* WHAT YOU DO STYLES END */
+
+
+  /* Previous Work STYLES END */
   
   
-  /* WHAT YOU DO STYLES START */
+  /* Previous Work STYLES START */
   .steps { 
     background: var(--primary-color);
   }
@@ -338,7 +348,7 @@
     line-height: 1.5;
     color: var(--secondary-color);
   }
-  /* WHAT YOU DO STYLES END */
+  /* Previous Work STYLES END */
   
   /* MEET THE TRAINERS START */
   .trainers {
@@ -470,6 +480,7 @@
   
   .flex-row {
     display: flex;
+    flex-direction: column;
   }
   
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
