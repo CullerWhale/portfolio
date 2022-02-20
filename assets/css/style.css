@@ -278,8 +278,15 @@
     flex-wrap: wrap;*/
     justify-content:space-between;
     align-items: center;
+
   }
   
+  #avatar {
+    max-width: 10%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+
   .intro p {
     line-height: 1.7;
     color: var(--tertiary-color);
